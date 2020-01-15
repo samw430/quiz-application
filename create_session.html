@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title> Question Lobby </title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="css/common_themes.css">
+    <div class="container">
+      <div class="title">    
+        <h1>- Let's Add Questions to your Quiz -</h1>
+      </div>
+      
+      <section class="question-list">
+        <div class="container">
+          <a href="#" class="btn" id="button">Add a Question</a>
+          <ul id="questions">
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="bg-modal">
+  <div class="modal-contents">
+
+      <div class="close">+</div>
+      <img src="https://richardmiddleton.me/comic-100.png" alt="">
+
+      <form id="questionAddForm">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" placeholder="E-Mail">
+        <input type="submit" placeholder="Submit">
+      </form>
+
+    </div>
+  </div>
+  <script src = "js/list_generator.js"></script>
+  <script src="js/pop_up_actions.js"></script>
+  </body>
+</html>
